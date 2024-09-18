@@ -4,7 +4,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Projects from "./components/Projects"
 import Technologies from "./components/Technologies"
-import Contact from "./components/contact"
+import Contact from "./components/Contact"
 
 const App = () => {
   return (
