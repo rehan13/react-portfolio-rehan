@@ -1,8 +1,8 @@
 import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-1.jpg";
-import project3 from "../assets/projects/project-2.jpg";
-import project4 from "../assets/projects/project-3.jpg";
-import project5 from "../assets/projects/project-4.jpg";
+import project2 from "../assets/projects/project-2.png";
+import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-1.jpg";
 import project6 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I am a passionate Data Scientist and full stack developer with experience in creating scalable web applications using the MERN stack (MongoDB, Express, React, Node.js). With expertise in Python, R, and scikit-learn for data science, I specialize in building predictive models and performing advanced data analysis. My background in software development, data science, and machine learning, combined with a strong foundation in mathematics from UBC, enables me to tackle complex problems. I aim to deliver innovative solutions that drive business growth, leveraging both web technologies and data insights to enhance user experiences and optimize decision-making.`;
