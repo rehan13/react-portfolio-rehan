@@ -14,7 +14,7 @@ What I bring to the table is a blend of technical expertise and practical experi
 export const EXPERIENCES = [
   {
     year: "2020 - Present",
-    role: "Freelance Web Developer: MERN Stack Developer",
+    role: "Freelance Web Developer",
     company: "Self-employed",
     description: `Developed and maintained scalable web applications using the MERN stack (MongoDB, Express, React, Node.js). Implemented RESTful APIs, designed user interfaces, and optimized applications for performance and responsiveness. Worked with clients to gather requirements and deliver high-quality solutions on time.`,
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
