@@ -20,7 +20,7 @@ export const EXPERIENCES = [
     technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
   },
   {
-    year: "2019",
+    year: "2019 - 2019",
     role: "Data Scientist Intern",
     company: "The Coca-Cola Company",
     description: `Supported the company's growth by building machine learning models to predict seasonal sales trends. Improved data quality, performed advanced data analysis, and developed predictive models using Python and scikit-learn. Visualized sales patterns for marketing and finance teams and built data pipelines for Azure integration.`,
