@@ -2,75 +2,81 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
+import project6 from "../assets/projects/project-6.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const HERO_CONTENT = `I am a passionate Data Scientist and full stack developer with experience in creating scalable web applications using the MERN stack (MongoDB, Express, React, Node.js). With expertise in Python, R, and scikit-learn for data science, I specialize in building predictive models and performing advanced data analysis. My background in software development, data science, and machine learning, combined with a strong foundation in mathematics from UBC, enables me to tackle complex problems. I aim to deliver innovative solutions that drive business growth, leveraging both web technologies and data insights to enhance user experiences and optimize decision-making.`;
+
+export const ABOUT_TEXT = `I’m a recent graduate from the University of British Columbia with a Bachelor's Degree in Mathematics and a minor in Data Science. My education focused on programming, data analysis, machine learning, and computer systems, providing me with a strong technical foundation. During my internship at The Coca-Cola Company as a Data Scientist Intern, I worked on improving data quality, analyzing sales trends, and developing predictive models, giving me hands-on experience in applying theoretical knowledge to real-world business challenges. I am proficient in Python, R, JavaScript, SQL, and the MERN stack, with experience using Git, Docker, and other modern development tools.
+
+What I bring to the table is a blend of technical expertise and practical experience in building scalable web applications and data-driven solutions. I excel at tackling complex problems, whether it's through developing predictive models or creating efficient web applications. My strong collaboration and communication skills ensure I can work effectively in team environments to deliver innovative and impactful solutions that drive business success.`;
+
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
+  year: "2020 - Present",
+  role: "Freelance Web Developer: MERN Stack Developer",
+  company: "Self-employed",
+  description: `Developed and maintained scalable web applications using the MERN stack (MongoDB, Express, React, Node.js). Implemented RESTful APIs, designed user interfaces, and optimized applications for performance and responsiveness. Worked with clients to gather requirements and deliver high-quality solutions on time.`,
+  technologies: ["MongoDB", "Express.js", "React.js", "Node.js"],
+},
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
+  year: "2019 -2019",
+  role: "Data Scientist Intern",
+  company: "The Coca-Cola Company",
+  description: `Supported the company's growth by building machine learning models to predict seasonal sales trends. Improved data quality, performed advanced data analysis, and developed predictive models using Python and scikit-learn. Visualized sales patterns for marketing and finance teams and built data pipelines for Azure integration.`,
+  technologies: ["Python", "R", "scikit-learn", "Azure"],
+},
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
-    image: project1,
-    description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-  },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
-  },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
-];
+  title: "Smart Rentals",
+  image: project1,
+  description:
+    "A rental management system allowing users to browse and book rental properties. Features include property listings, user authentication, and real-time booking abilities.",
+  technologies: ["React", "Node.js", "MongoDB", "Express"],
+},
+{
+  title: "Flight Ticket Booking System",
+  image: project2,
+  description:
+    "A comprehensive flight ticket booking system with features like booking, cancellations, and seat selection. Developed using Java, JUnit, and JavaSwing, with a focus on clean UI and robust backend logic.",
+  technologies: ["Java", "JUnit", "JavaSwing"],
+},
+{
+  title: "Movie Revenue Predictions",
+  image: project3,
+  description:
+    "A machine learning project predicting the gross revenue of upcoming movies based on historical data and various key features such as genre, cast, and budget.",
+  technologies: ["Python", "scikit-learn", "Pandas", "Matplotlib"],
+},
+{
+  title: "Miami Housing Price Predictors",
+  image: project4,
+  description:
+    "A predictive model explaining variance in housing prices in Miami. This project utilizes detailed statistical analysis to forecast housing prices based on key factors.",
+  technologies: ["Python", "scikit-learn", "Pandas", "Matplotlib"],
+},
+{
+  title: "NBA Data Visualization",
+  image: project5,
+  description:
+    "A data visualization project analyzing NBA games to quantify home court advantage. Used advanced visualization techniques to explore trends in game outcomes.",
+  technologies: ["Python", "Matplotlib", "Seaborn", "Pandas"],
+},
+{
+  title: "Portfolio Website",
+  image: project6,
+  description:
+    "A personal portfolio website showcasing my projects, skills, and contact information. Built with a focus on modern web design and responsive layouts.",
+  technologies: ["React", "TailwindCSS", "JavaScript"],
+},
+
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+1 123 456 7890 ",
-  email: "me@example.com",
+  address: "489 Interurban Way, Vancouver, BC V5X 0C7",
+  phoneNo: "+1 778 668 XXXX ",
+  email: "rmondal1312@gmail.com",
 };
